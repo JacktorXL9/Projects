@@ -1,0 +1,1 @@
+This will be a fairly simple data exploration exercise using the Mushrooms data set provided by Kaggle.
