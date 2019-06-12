@@ -19,16 +19,23 @@ for i in range(n):
     data = input().strip().split(' ')
     X.append(data[:m])
     Y.append(data[m:])
+#convert our lists into numpy arrays
 X = np.array(X,float)
 Y = np.array(Y,float)
+# Add a column of 1's to the X array to represent the scalar term
 X = np.c_[ np.ones(n), X]
+#Calulcate Beta via the Equation B = (X^T X)^-1 X^T Y
 Beta = np.dot(np.dot(inv(np.dot(np.transpose(X), X)), np.transpose(X)), Y)
+# a simple input for the new X values to predict a Y
 print('Please input your {} data points'.format(m))
 X_input = []
 data = input().strip().split(' ')
 X_input.append(data)
+#Convert to array
 X_input = np.array(X_input,float)
+#add column of ones
 X_input = np.c_[ np.ones(1), X_input]
+#calculate y
 Y_new = np.dot(X_input, Beta)
 
 
