@@ -1,0 +1,54 @@
+Machine Learning in the Precense of class imbalance
+Speaker: Bejamin Fung
+
+Authorship Identification:
+Trying to identify who wrote a piece of text based off of past patterns
+Problem is working off of incredibly small sample data.
+All of the work is effectively done in preprocessing. 
+
+Author Miner 3.0
+
+Malware reverse engineering:
+Done to reverse engineer malware based off of a few lines of code that are executed
+
+TODO: Check out his website and read into his work more closely
+
+PrivacyTalk
+Speaker: Unknown (bathroom)
+
+TODO: Look into Tensorflow Privacy and PySyft
+
+MindBridge Fraud Detection in Precense of Class Inbalance:
+
+Worked on the exact same data set as I did. Kaggle Credit card fraud data
+
+Did it as a way of supervised learning, results were not great.
+
+TODO: Redo the set and work on getting a better result. AUTO-ENCODER look into applications, seems pretty pointless atm.
+
+IMRSV Talk
+Speaker: Isuru
+
+TODO: Look into Data Augmentatio and Out of Folds Prediction
+
+Weather Streams Talk:
+Adaptive Learning Trees
+MOA WIKA
+TODO: Look into One-class learning and Ski-kit Learn Multi-flow
+
+
+Interset Talk
+Speaker: Shaun Pilkington
+
+MITRE ATT&CK Matrix
+attack.mitre.org
+
+Data Sets
+-Pen Testers/ Red Team attack
+-UGR 16(Spain)
+-Los Alamos(LANL)
+-UNB ISCX 2012/2018 Intrusion
+
+LEMAY.AI talk
+CWS SCORE Fast Teext
+Rating the Raters
